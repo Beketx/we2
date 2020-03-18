@@ -1,0 +1,154 @@
+body{
+    font-family:  Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background: url(images/simple-codelines.svg);
+    background-color: #2b3137;
+    background-position: center 10%;
+    background-size: cover;
+}
+
+.header{
+    height: 68px;
+    background-color: #24292e;
+    padding: 0 15% 1% 15%;
+}
+
+img{
+    margin-left: -16%;
+    margin-top: -0.4%;
+    width: 40px;
+    max-width: 100px;
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header li{
+    display: inline-block;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.header ul{
+    margin-top: -1.9%;
+    margin-left: -14%;
+    color: white;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+}
+
+.signin{
+    float: right;
+    margin-top: -4%;
+    margin-right: -14%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+}
+
+.signin a{
+    color: #fff;
+    padding-left: 30px;
+}
+
+.signin h1{
+    display: inline-block;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.search {
+    margin-top: -4.5%;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    background-color: #3e4347;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.box2{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+.box{
+    padding: 10% 0 30% 20%;
+}
+
+.Uw{
+    color: hsla(0,0%,100%,.6);
+}
+
+.box h1{
+    font-size: 60px;
+}
+
+.box p{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 50%;
+}
+
+.move{
+    margin-top: -60%;
+    margin-left: 60%;
+}
+
+.loginbox{
+    background-color: white;
+    color: black;
+    margin: 2%;
+    padding: 2%;
+    width: 378px;
+    height: 491px;
+    border: 0px solid;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
+
+.loginbox h1{
+    font-size: 16px;
+    color: #24292e;
+}
+.bir{
+    color: #6a737d;
+}
+
+.loginbox input{
+    width: 371px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.loginbox p{
+    font-size: 2px;
+}
+
+.button {
+    width: 300px;
+    height: 63px;
+    color: white;
+    background-color: #2ebc4f;
+    border-color: #2ebc4f;
+    border-radius: 4px;
+    margin-left: 17px;
+}
+
+
+.button:hover{
+    background-color: #7bd613;
+    cursor: pointer;
+}
