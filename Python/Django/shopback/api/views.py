@@ -117,4 +117,10 @@ def category_detail(request, category_name):
     return JsonResponse({'Error':'Category not found'})
 
 def category_product(request, category_name, product):
-    pass
+    products = Product.objects.all()
+    products_json = []
+    for product in products:
+        product = product.to_json()
+        if(product['category']==category_id):
+            products_json.append(product)
+    return JsonResponse(products_json, safe=False)

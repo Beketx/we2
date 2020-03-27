@@ -6,6 +6,7 @@ class Product(models.Model):
     price = models.FloatField()
     description = models.TextField()
     count = models.IntegerField()
+    categories = models.ForeignKey(Category,on_delete=Cascade)
     def to_json(self):
         return {
             'id':self.id,
