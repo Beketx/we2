@@ -25,6 +25,11 @@
     font-family: tahoma;
     cursor: pointer;
 }
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
 
 .form{
     float: right;
@@ -82,6 +87,7 @@ h1{
 .leftbody{
     width: 40%;
     float: left;
+    /*margin-left: -90px;*/
 }
 
 img{
