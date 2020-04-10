@@ -1,0 +1,22 @@
+
+<div *ngIf="product">
+  <h2>Краткое описание продукта</h2>
+  <h3>Артикул выбранного продукта:№{{product.id}}45872</h3>
+  <a href="{{product.url}}"> <img src="{{product.image}} " width="350" height="350"  alt=""></a>
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price  }} KZ</h4>
+  <h1>{{ product.description }}</h1>
+
+  <button (click)="addToCart(product)">Добавить в корзину</button><br>
+  <a href="https://telegram.me/share/url?url={{ product.url }}" data-text="Take a look at this new item! You can read more information there!:" class = "btnShare">Share</a>
+  <div class =model>
+  <h2>Название продукта</h2>
+  <input [(ngModel)]="product.name" id="width" placeholder="Название продукта"/><br>
+  <h2>Цена продукта</h2>
+  <input [(ngModel)]="product.price" placeholder="цена" /><br>
+  <h2>Описание продукта</h2>
+  <input [(ngModel)]="product.description" id="des" placeholder="описание"/><br>
+  <h2>Рейтинг продукта</h2>
+  <input [(ngModel)]="product.rating" id="rat" placeholder="оценка пользователей"/>
+  </div>
+</div>

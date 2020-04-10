@@ -1,0 +1,36 @@
+#width{
+  width: 300px;
+  font-style: italic
+}
+#des{
+  width: 500px;
+  font-style: italic
+}
+
+h2 {
+  display: inline;
+  color:white;
+  font-style: italic;
+
+
+}
+
+.btnShare{
+  display: inline;
+  color: #939b99;
+  font-style: italic;
+
+}
+h1,h3,h4{
+  font-style: italic
+}
+
+
+div {
+  background-color: #94c0c2;
+  color:white;
+  font-style: italic
+
+
+
+}
