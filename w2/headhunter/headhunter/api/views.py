@@ -82,7 +82,7 @@ def vacancies_of_company(request,company_name):
 class VacancyViewSet(ListCreateAPIView):
     serializer_class = VacancySerializer
     queryset = Vacancy.objects.all()
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
     # def perform_create(self,serializer):
     #     vacancy = get_object_or_404(Vacancy, id = self.request.data.get('id'))
     #     return serializer.save(vacancy=vacancy)
